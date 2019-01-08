@@ -11,7 +11,7 @@ pipelines with multiple producers and consumers. The key to disruptor architectu
 can be thought of a circular queue where producers and consumers do not have to worry about head and tail. 
 The architecture is highly suitable for making responsive systems based on chronology and is event driven. 
 The key to high performance of disruptor is the fact that it is totally lock free. LOCKS ARE BAD FOR
-PERFORMANCE! Martin Flower, Trisha Gee and Michael Baker have done a commendable job in their blog posts to explain the 
+PERFORMANCE! Martin Flower, Trisha Gee and Michael Barker have done a commendable job in their blog posts to explain the 
 details of disruptor. You can read more about it here:
 
 * [LMAX Exchange's architecture - by Martin Flower](https://martinfowler.com/articles/lmax.html)
